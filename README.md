@@ -1,3 +1,4 @@
+Clone this repo and install it to your docusaurus installation through npm install /path/to/folder while in the working folder of the docusaurus installation.
 
 <a href="https://www.getpostman.com/"><img src="https://assets.getpostman.com/common-share/postman-logo-horizontal-320x132.png" /></a><br />
 _Manage all of your organization's APIs in Postman, with the industry's most complete API development environment._
