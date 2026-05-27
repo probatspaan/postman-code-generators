@@ -70,7 +70,7 @@ async.series([
   },
   function (next) {
     var codegens = getSubfolders(PATH_TO_CODEGENS_FOLDER);
-    codegens.forEach((codegen) => {
+    for (var codegen of codegens) {
 
       shell.cd(codegen.path);
 
@@ -84,7 +84,7 @@ async.series([
         return next(commandOut.stderr);
       }
       console.log(commandOut.stdout);
-    });
+    }
   }], (err) => {
   if (err) {
     console.error(err);
